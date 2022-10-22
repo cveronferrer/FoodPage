@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:baseline;
+  }
+  
+  
+    .paged{
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    .numbers{
+      text-shadow: 2px 2px #000000;
+      font-size: 20px;
+      background-color: rgba(0, 0, 0, 0.253);
+      border-radius: 0.5px;
+      color: white;
+      padding: 12px;
+      font-weight: 700;   
+    }
+  
+    .numbers:hover{
+      cursor: pointer;
+      background: #ffa927;
+    border-radius: 5px;
+      letter-spacing: 1px;
+      -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+      -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+      box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+      transition: all 0.5s ease 0s;
+      box-shadow: 0 0 5pt 0.5pt #161616;
+    }
+  
+    .numbers:active{
+      background: rgb(255, 94, 0);
+    }
+  

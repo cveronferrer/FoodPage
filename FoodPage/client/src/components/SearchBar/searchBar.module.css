@@ -1,0 +1,331 @@
+
+.bar{
+    background-Image: url('https://fondosmil.com/fondo/32027.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    min-height: 100vh;
+    min-width: 100vh;
+    padding: 20px;
+}
+
+.featured{
+    color: rgb(255, 164, 28);
+    font-weight: 500;
+    font-family:'quicksand';
+    position: absolute;
+    font-size: 30px;
+    top: 120px;
+    left: 65px;
+}
+
+.recetas{
+    margin-top: 350px;
+    list-style-type: none;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none !important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+.loaderContainer{
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.recipeList{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none !important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+
+figure {
+    display: table;
+    text-decoration: none !important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+img, figcaption {
+    display: table-cell;
+    vertical-align: top;
+    width: 215px;
+    height: 190px;
+    border-radius: 10px;
+    text-decoration: none !important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+figcaption {
+    max-width: 400px;
+    max-height: 80px;
+    background-color: rgba(0, 0, 0, 0.37);
+    padding-left: 4px;
+    text-indent: 200px each-line;
+    text-decoration: none !important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    font-family: 'quicksand';
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.removeLink {
+    color: black;
+    text-decoration: none;
+}
+
+figure:hover{
+    letter-spacing: 0.5px;
+    background-color: rgba(255, 255, 255, 0.233);
+    border-radius: 10px;
+    cursor: pointer;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.2s ease 0s;
+    box-shadow: 0 0 5pt 0.5pt #161616;
+    text-decoration: none !important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+.loader{
+    position: absolute;
+    left: 43%;
+    top: 15%;
+}
+
+.logo{
+    height: 120px;
+    width: 120px;
+}
+
+.error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    color: whitesmoke;
+    display: flex;
+    text-shadow: 2px 2px #000000;
+    justify-content:center;
+    font-variant: small-caps;
+    font-weight: 800;
+    font-size: 28px;
+    margin-top: 0;
+    text-decoration: none !important
+}
+.form{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.dieta{
+    font-size: 13px;
+    position: absolute;
+    top: 25px; right:220px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 6px;
+    cursor: pointer;
+    background:rgb(255, 179, 65);
+    border-radius: 5px;
+	display: inline-block;
+	border: none;
+}
+
+.dieta:hover {
+	cursor: pointer;
+	background: #ffa927;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.2s ease 0s;
+    box-shadow: 0 0 5pt 0.5pt #161616;
+}
+
+
+.filterBy{
+    background-color:rgba(0, 0, 0, 0.356);
+    position: absolute;
+    right: 66px;
+    top:60px;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;  
+}
+
+
+
+
+.btn{
+    color: rgb(0, 0, 0) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: rgb(255, 179, 65);
+	padding: 10px;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.2s ease 0s;
+}
+    
+.btn:hover {
+    cursor: pointer;
+	background: #ffa927;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.2s ease 0s;
+    box-shadow: 0 0 5pt 0.5pt #161616;
+}
+
+.btn:active{
+    background-color: rgb(255, 136, 0);
+    box-shadow: 1px 1px 1px 0px rgb(0, 0, 0);
+}
+
+.links{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 20px; left: 20px; 
+}
+
+.select{
+    font-size: 13px;
+    position: absolute;
+    top: 25px; right:20px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 6px;
+    cursor: pointer;
+    background:rgb(255, 179, 65);
+    border-radius: 5px;
+	display: inline-block;
+	border: none;
+}
+.select:hover {
+	background: #ffa927;
+    cursor: pointer;
+	letter-spacing: 0.5px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.5s ease 0s;
+    box-shadow: 0 0 5pt 0.5pt #161616;
+}
+
+
+
+.filter{
+    font-size: 13px;
+    position: absolute;
+    top: 25px; right:233px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 6px;
+    cursor: pointer;
+    background:rgb(255, 179, 65);
+    border-radius: 5px;
+	display: inline-block;
+	border: none;
+}
+.filter:hover {
+	background: #ffa927;
+    cursor: pointer;
+	letter-spacing: 0.5px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.5s ease 0s;
+    box-shadow: 0 0 5pt 0.5pt #161616;
+}
+
+
+.create{
+    text-decoration: none;
+    color: rgb(255, 179, 65);
+    padding: 8px;
+    background-color:rgba(214, 211, 205, 0.267);
+    border-radius: 7px;
+    
+}
+
+.create:hover{
+    font-size: 21px;
+    letter-spacing: 1px;
+    background-color:rgba(214, 211, 205, 0.377);
+    transition: all 0.2s ease 0s;
+}
+.create:active{
+    background-color: rgba(255, 179, 65, 0.562);
+}
+
+.land{
+    margin-left: 15px;
+    text-decoration: none;
+    color: rgb(255, 179, 65);
+    padding: 8px;
+    background-color:rgba(214, 211, 205, 0.267);
+    border-radius: 7px;
+}
+
+.land:hover{
+    font-size: 21px;
+    letter-spacing: 1px;
+    transition: all 0.2s ease 0s;
+    background-color:rgba(214, 211, 205, 0.377);
+}
+
+.land:active{
+    background-color: rgba(255, 179, 65, 0.562);
+}
+
+.input{
+    margin-right: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 90px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+
+}
+
+.input:hover{
+    box-shadow: 0 0 5pt 0.5pt #161616;
+    letter-spacing: 1px;
+    transition: all 0.2s ease 0s;
+}
+
