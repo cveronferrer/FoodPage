@@ -6,7 +6,7 @@
 
 html,
 body {
-    background: #000 url('img/bg.jpg') no-repeat center center/cover;
+    background-image: url(./img/fondo-oscuro-hojas-verdes.jpg);
     height: 100vh;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;

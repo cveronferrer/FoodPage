@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# BREAKING BAD PAGE
+
+~~~
+
+In this project you can see the different characters of Breaking Bad
+
+~~~
+![Image text](./src/img/LandingPage.png) ![Image text](./src/img/LandingPageSearch.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
