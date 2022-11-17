@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import {getRecipeById,resetAll} from '../../actions/index'
 import s from './recipeDetail.module.css'
 import {motion} from 'framer-motion'
-import henry from '../../HenryFood.jpeg'
+import pic from '../../HenryFood.jpeg'
 
 
 function RecipeDetail(props){
@@ -34,7 +34,7 @@ function RecipeDetail(props){
         <h1 className={s.title}>{props.recipe.name}</h1>
         <div className={s.info}>
         {props.recipe.image? <img  className={s.img} src={props.recipe.image}></img>:
-        <img src={henry}></img>}
+        <img src={pic}></img>}
         <div  className={s.scores}>
         {/* <h4>Score:{props.recipe.score}</h4> */}
         {/* <h4>Health Level:{props.recipe.healthLevel}</h4> */}

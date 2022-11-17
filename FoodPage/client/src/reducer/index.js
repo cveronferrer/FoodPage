@@ -7,9 +7,9 @@ import {
 
 
 const initialState = {
-    recipesSearch: [], //recetas por nombre 
+    recipesSearch: [], 
     types: [],
-    recipeById: [], //receta por id
+    recipeById: [], 
     loading: false,
     filterBy: 'All',
     filteredRecipes : [],

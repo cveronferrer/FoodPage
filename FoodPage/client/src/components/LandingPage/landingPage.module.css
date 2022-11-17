@@ -35,7 +35,7 @@
 }
 
 .contenedor{
-    background-Image: url('http://cdn.lowgif.com/full/74147ac521a65af6-gif-minestrone-fumante-gif-animata-cibo.gif');
+    background-Image: url('./louis-hansel-.jpg');
     width: 100vw;
     height: 100vh;
     background-position: center center;
@@ -45,8 +45,9 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     color: aliceblue;
+    padding-left: 2.5em;
 }
 
 .h1{

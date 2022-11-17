@@ -1,5 +1,5 @@
 .container{
-    background-Image: url('https://mk0amnacademyicmx15b.kinstacdn.com/wp-content/uploads/2017/03/food-pot-kitchen-cooking-background-1.jpg');
+    background-Image: url('../SearchBar/noita-digital.jpg');
     min-width: 100vw;
     min-height: 100vh;
     background-position: center center;
@@ -92,7 +92,7 @@ margin-bottom: 35px;
     border-radius: 45px;
     padding: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     height: 250px;
     width: 300px;
